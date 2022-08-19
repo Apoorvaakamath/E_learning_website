@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body,html{
+                height:100%;
+                margin:0;
+            }
+             .bg{
+                background-image: url("data:image/png;base64,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");
+               height: 100%;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+            
+            }
+            .back{
+               
+    
+                
+               
+            
+              
+               cursor: pointer;
+               opacity: 0.8;
+               position: fixed;
+               bottom: 23px;
+              right: 28px;
+               width: 28px;
+  
+              }
+        </style>
+
+    </head>
+<body id="about">
+<div class="bg">
+    <h1 style="color:rgb(31, 158, 197);text-align: center;background-color: white;">About</h1>
+    <br><br><br>
+    <div id="abt">
+    <p style="color:white ;">
+        Basically designed for the 10th and 12th students,<br>
+        the website primarily focuses on the concept clarity.<br>
+        Students can now interact to other students and clarify their doubts.<br>
+    </p>
+    <br><br>
+    <p style="color: white;">
+        Designed by C.Apoorva.A.Kamath , 489/500 scorer cbse class 10 2018<br>
+        the website would help students to conatct her for any queries<br>
+
+    </p><br><br>
+    <p style="color: white;">
+    Students can enroll in trial programs for a month.<br>
+    This would provide them a clear insight on the quality of teaching<br>
+    and access to the platform.
+    <br> <br> <br><br><br><br> 
+    <h1 style="text-align: center ;color: white;">Happy Learning!!</h1>
+     </p>
+     <div class="card center">
+        <input type="checkbox" name="" id="" class="bttn">
+        <div class ="left_container center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89Hdl7S9cjg9iGvKJJTdNFASpSC7d_hTYsA&usqp=CAU"alt="">
+        </div>
+        <div class="right_container center"style="color:rgb(31, 158, 197)">
+            <p class="username">C.Apoorva.A.Kamath</p>
+            <p class="skill">Front end developer</p>
+        </div>       
+     </div>
+
+     </div>
+    </div>
+    
+</div>
+<button class="back"onclick="window.location.href='index.html';">&#x23ED</button>
+</body>
+
+</html>
